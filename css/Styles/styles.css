@@ -1,0 +1,144 @@
+@font-face {
+    font-family: Nunito;
+    src: url('../../fonts/NunitoSans_7pt_Condensed-Regular.ttf');
+    font-family: americas;
+    src: url("../../fonts/AmericanLabelDEMO.ttf")
+}
+:root{
+    --naranja: #f0a202ff;
+    --naranjaClaro: #f8d181ff;
+    --blanco: #ffffffff;
+    --rojoCoral: #da8e8eff;
+    --rojoOscuro: #b51d1dff;
+    --rojoClaro: #ce3e3dff;
+    --rojoMasClaro: #e65f5cff;
+
+}
+body{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Nunito;
+}
+.header__logo{
+    width: 5rem;
+    height: 5rem;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--naranjaClaro);
+}
+.header__navegacion{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    background-color: var(--rojoCoral);
+}
+.header__link{
+    color: white;
+    text-decoration: none;
+}
+.header__link:hover{
+    text-decoration: underline;
+    color: var(--naranja);
+    font-size:20px;
+}
+.seccionhero{
+    height: 60vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../../imagenes/skyplane.jpg);
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    background-repeat: no-repeat;
+    align-items: end;
+    justify-content: center;
+    align-items: center;
+}
+.seccionHero__titulo{
+    color: white;
+    margin: 0;
+    text-align: center;
+
+    
+}
+.seccionHero__form{
+    background-color: rgba(255, 255, 255, 0.234);
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+.seccionHero__form{
+    padding: 0.3rem 1rem;
+}
+.seccionHero__boton{
+    border-radius: 2rem;
+    border: none;
+    background-color: var(--naranja);
+    cursor: pointer;
+    padding: 0.3rem 0.5rem;
+
+}
+.seccionHero__inputForm{
+    border-radius: 0.3rem;
+}
+.seccionHero__boton:hover{
+    background-color: var(--naranjaClaro);
+}
+.seccionHero__dateForm{
+    padding: 0.1rem 0.1rem;
+    border-radius: 0.3rem;
+    border: none;
+}
+.seccionHeo__inputSubmit{
+    font-size: 1.1rem;
+    background-color: var(--naranja);
+    border: none;
+    border-radius: 2rem;
+    padding: 0.3rem 0.5rem;
+    cursor: pointer;
+}
+.seccionDonde__imagenCard{
+    width: 100%;
+    height: 20rem;
+    filter: brightness(0.4);
+}
+.seccionDonde__imagenCard:hover{
+    filter: brightness(1);
+    cursor: pointer;
+
+}
+
+.seccionDonde__card{
+    width: 20%;
+    box-shadow: 4px 5px 7px rgba(0, 0, 0, 0.37);
+    background-color: rgba(0, 255, 255, 0.237);
+
+}
+.seccionDonde__contenedorCards{
+    display: flex;
+    justify-content: center;
+}
+.seccionDonde__titulo{
+    text-align: center;
+    padding: 0;
+}
+.seccionDonde__tituloCard{
+    margin: 0.1;
+    text-align: center;
+   
+}
+.seccionAlquiler__imagenCard{
+    width: 60%;
+    box-shadow: 4px 5px 7px rgba(0, 0, 0, 0.37);
+    background-color: rgba(0, 255, 255, 0.237);
+
+}
+.SeccionContenedorAlquiler__card{
+    display: flex;
+    justify-content: center;
+
+}
+.seccionAlquiler__imagenCard_y{
+    width: 100%;
+    padding: 0.9rem 1rem;
+}
